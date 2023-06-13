@@ -1,0 +1,13 @@
+body {
+    background-color: #fff;
+    color: #008000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.6;
+    flex-direction: row;
+    text-align: center;
+    min-height: 100vh;
+    display: block;
+    white-space: pre;
+  }
