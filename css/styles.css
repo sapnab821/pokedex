@@ -7,7 +7,7 @@ body {
   margin-top: 10px;
   white-space: pre;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
   min-height: 100vh;
   display: flex;
 }
@@ -15,3 +15,18 @@ body {
 .pokemon-list {
   list-style-type: none;
 }
+
+button {
+  display: inline;
+  background-color: #fff;
+  border-width: 5px ;
+  border-color: #000; 
+  color: #008000;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin: 5px;
+}
+
