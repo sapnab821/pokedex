@@ -1,10 +1,24 @@
+h1 {
+  font-size: 45px;
+}
+
+.col {
+  padding-block: 10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.col-3 {
+  text-align: center;
+}
+
 main {
   background-color: #fff;
   color: #008000;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 25px;
-  margin-top: 10px;
+  margin-top: 100;
   white-space: pre;
   flex-direction: column;
   text-align: center;
@@ -12,31 +26,42 @@ main {
   display: flex;
 }
 
-#pokemon-list{
+#pokemon-list {
   list-style-type: none;
 }
 
-button{
+.modal-body {
+  font-size: 30px;
+  text-align: left;
+}
+
+button {
   list-style: none;
 }
 
 #button-main {
   display: inline;
   background-color: #fff;
-  border-width: 5px ;
-  border-color: #000; 
+  border-width: 5px;
+  border-color: #000;
   color: #008000;
   text-align: center;
   font-size: 28px;
-  padding: 20px;
+  height: 100px;
   width: 200px;
   cursor: pointer;
-  margin: 5px;
-} 
+  /*margin: 5px;*/
+  padding-inline-start: 0px;
+}
+
 
 .list-group {
+  margin-top: 50px;
   border-radius: 0%;
+  float: left;
   border-style: none;
-  display: inline;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+
 }
